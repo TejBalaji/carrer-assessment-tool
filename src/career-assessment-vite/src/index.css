@@ -1,0 +1,29 @@
+/* stylelint-disable at-rule-no-unknown */
+/* Use standard CSS @import to avoid "Unknown at rule" errors in editors while PostCSS/Tailwind processes these */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root{
+  --bg: #F8FAFC; --card:#fff; --primary:#0F172A; --accent:#06B6D4;
+}
+body{
+  @apply bg-[var(--bg)] text-[#0f1724] antialiased;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.card{
+  background: var(--card);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 8px 30px rgba(2,6,23,0.06);
+  border: 1px solid rgba(15,23,42,0.04);
+}
+.btn-primary{
+  background: var(--primary);
+  color: white;
+  padding: .6rem 1rem;
+  border-radius: 10px;
+}
+.muted{ color:#6b7280; }
+.progress { height:8px; background:#e6eef6; border-radius:999px; overflow:hidden; }
+.progress > i{ display:block; height:100%; width:0%; background:linear-gradient(90deg,var(--accent),#06b6d4); }

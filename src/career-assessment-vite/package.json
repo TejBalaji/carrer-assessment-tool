@@ -1,0 +1,33 @@
+{
+  "name": "career-assessment-vite",
+  "version": "1.0.0",
+  "description": "A web-based career assessment tool for students.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^2.2.19",
+    "postcss": "^8.4.5",
+    "autoprefixer": "^10.4.2"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4",
+    "typescript": "^4.4.3",
+    "vite-plugin-react": "^1.0.0"
+  },
+  "keywords": [
+    "career",
+    "assessment",
+    "tool",
+    "students",
+    "react",
+    "vite"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
